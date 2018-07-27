@@ -8,6 +8,10 @@ class Album
   def initialize
     @@album_count += 1
   end
+  
+  def self.count #self keyword tells the program that this is a CLASS method
+    @@album_count
+  end 
     
 end
 
@@ -19,3 +23,4 @@ album1.release_date=(2016)
 puts album1.release_date
 album1.artist=("Beyonce")
 puts album1.artist
+puts Album.count
