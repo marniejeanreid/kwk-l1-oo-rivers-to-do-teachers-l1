@@ -1,11 +1,12 @@
 class Album
-  attr_accessor :release_date, :artist
-  def title= (title) #setter method 
-    @title = title
-  end
+  attr_accessor :release_date, :artist, :title
+  attr_reader #gives you ONLY a getter method
+  attr_writer #gives you ONLY a setter method
   
-  def title #getter method
-    @title
+  @@album_count =0 #this is a class variable. It has TWO @ signs
+  
+  def initialize
+    @@album_count += 1
   end
     
 end
