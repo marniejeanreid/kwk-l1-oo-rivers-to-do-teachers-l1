@@ -1,5 +1,5 @@
 class Album
-  attr_accessor :release_date
+  attr_accessor :release_date, :title
   def title= (title) #setter method 
     @title = title
   end
