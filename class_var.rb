@@ -23,4 +23,7 @@ album1.release_date=(2016)
 puts album1.release_date
 album1.artist=("Beyonce")
 puts album1.artist
+album2 = Album.new
+album3 = Album.new
+album4 = Album.new
 puts Album.count
