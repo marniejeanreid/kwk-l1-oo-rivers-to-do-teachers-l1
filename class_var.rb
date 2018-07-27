@@ -11,7 +11,7 @@ class Album
 end
 
 album1 = Album.new
-puts album1.title=("Lemonade")
+album1.title=("Lemonade")
 puts album1.title
 
 album1.release_date=(2016)
